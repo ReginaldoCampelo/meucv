@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
 import { NewCvComponent } from './pages/new-cv/new-cv.component';
+import { EditCvComponent } from './pages/edit-cv/edit-cv.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    NewCvComponent
+    NewCvComponent,
+    EditCvComponent
   ],
   imports: [
     BrowserModule,
