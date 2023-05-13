@@ -8,7 +8,6 @@ const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'new', component: NewCvComponent },
   { path: 'edit/:id', component: EditCvComponent },
-  { path: '**', redirectTo: '/home' },
 ];
 
 @NgModule({
